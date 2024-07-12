@@ -54,6 +54,7 @@ h2 {
 }
 h4 {
     background-color: black;
+    font-size: 20px;
     color: white;
     padding: 40px;
     display: inline-block;
@@ -128,16 +129,4 @@ footer {
 .image-container p {
     margin-top: 20px;
 }
-button {
-    background-color: #f8f8f8; /* Green */
-    border: black;
-    color: rgb(0, 0, 0);
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: black;
-    display: inline-block;
-    font-size: 32px;
-    margin: 20px 20px;
-    cursor: pointer;
-    border-radius: 25px;
-}
+
