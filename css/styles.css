@@ -125,6 +125,18 @@ footer {
     display: block;
     margin: 0 auto;
 }
+.about-images {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between images as needed */
+    margin-bottom: 20px;
+}
+
+.about-images img {
+    width: 32%; /* Adjust width to fit 3 images in one row with some spacing */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
 .image-container p {
     margin-top: 20px;
