@@ -6,7 +6,141 @@
   <title>Deshpande Brothers And Company - About Us</title>
   <link rel="stylesheet" href="../css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Use similar styles from the home page */
+    body {
+      font-family: 'Times new roman', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+      color: #333;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    header {
+      background-color: #444;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      text-align: center;
+      flex: 1;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 16px 24px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 0 10px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+      color: #fff;
+    }
+
+    h2 {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 28px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    #about {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    #about p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .carousel-item img {
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+      .carousel-inner img {
+        max-height: 300px;
+      }
+
+      #about p {
+        font-size: 16px;
+      }
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .dark-background {
+      background-color: #383139;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .dark-background .contact-left img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .light-background {
+      background-color: #cfcdd4;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -59,23 +193,14 @@
       
       <p>Our mission is to deliver top-notch products that meet the needs of our diverse customer base. We strive for excellence in everything we do, from the sourcing of raw materials to the manufacturing process and customer service. Thank you for choosing DEBCO.</p>
     </section>
-    <section id="contact" class="dark-background">
-      <div class="contact-left"><img src="../images/logo.jpg" alt="CEO Image"></div>
-      <div class="contact-right">
-        <h5>CEO & FOUNDER</h5>
-        <h3>M/s. Deshpande Brothers & Company</h3>
-        <p>Mr. Nandkishor Shriniwas Deshpande</p>
-        <p>Email: nsdebco@gmail.com</p>
-        <p>Phone: 9423447886, 7887428508</p>
-      </div>
-    </section>
-    <section id="contact" class="light-background">
+    <section id="contact" style="background-color: rgb(207, 205, 212);">
       <h1>DEBCO'S</h1>
       <p>DAILY NEEDFUL REMEDIES</p>
       <p>M/s. Deshpande Bros. & Company</p>
       <p>Address: Chaitanyadham, Chikhali Road, Deulgaon-Raja, Pin-443 204, Dist. Buldhana, Maharashtra, India. Email: nsdebco@gmail.com</p>
       <p>Phone: +91-7261-232116</p>
     </section>
+    <br>
     <footer>
       <p>© 2024 Deshpande Brothers And Company. All rights reserved.</p>
     </footer>
